@@ -10,7 +10,7 @@ public class Life extends ConfigurableEnchantment {
 
     public Life(Plugin plugin) {
         super(plugin, EnchantDefaults.LIFE, ItemSets.CHESTPLATES.getItems(), 2);
-        description = "Grants bonus health when equipped";
+        description = "装备上能取得额外的生命";
     }
 
     @Override
