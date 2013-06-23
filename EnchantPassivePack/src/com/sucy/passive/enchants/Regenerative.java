@@ -18,7 +18,7 @@ public class Regenerative extends ConfigurableEnchantment {
 
     public Regenerative(Plugin plugin) {
         super(plugin, EnchantDefaults.REGENERATIVE, ItemSets.CHESTPLATES.getItems());
-        description = "Restores health slowly over time";
+        description = "随着时间慢慢恢复生命";
     }
 
     @Override
