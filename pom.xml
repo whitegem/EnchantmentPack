@@ -26,6 +26,10 @@
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/repositories/releases/</url>
         </repository>
+        <repository>
+            <id>api-repo</id>
+            <url>http://ci.nekocraft.com/plugin/repository/everything/</url>
+        </repository>
     </repositories>
 
     <dependencies>
