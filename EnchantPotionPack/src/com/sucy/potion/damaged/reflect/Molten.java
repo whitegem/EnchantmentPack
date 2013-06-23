@@ -20,7 +20,7 @@ public class Molten extends ConfigurableEnchantment {
      */
     public Molten(Plugin plugin) {
         super(plugin, EnchantDefaults.MOLTEN, ItemSets.CHESTPLATES.getItems(), 2, ConflictGroup.POD);
-        description = "Burns enemies when hit";
+        description = "击中敌人时使其燃烧";
     }
 
     /**

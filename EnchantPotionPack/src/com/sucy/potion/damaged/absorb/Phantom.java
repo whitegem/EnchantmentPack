@@ -17,7 +17,7 @@ public class Phantom extends PotionAbsorb {
      */
     public Phantom(Plugin plugin) {
         super (plugin, EnchantDefaults.PHANTOM, ItemSets.BOOTS.getItems());
-        description = "Grants temporary invisibility when hit";
+        description = "被造成伤害后增加临时隐身能力";
     }
 
     /**
