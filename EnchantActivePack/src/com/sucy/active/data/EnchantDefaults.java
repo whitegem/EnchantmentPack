@@ -13,11 +13,11 @@ import java.util.Hashtable;
  */
 public enum EnchantDefaults {
 
-    ANGLER ("Angler", new Hashtable<String, Object>(){{
+    ANGLER ("职业钓者", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 4);
     }}),
 
-    DASH ("Dash", new Hashtable<String, Object>() {{
+    DASH ("冲锋", new Hashtable<String, Object>() {{
         put(ConfigValues.MAX.getKey(), 5);
         put(ConfigValues.CD_BASE.getKey(), 5);
         put(ConfigValues.CD_BONUS.getKey(), 0);
@@ -27,17 +27,17 @@ public enum EnchantDefaults {
         put(ConfigValues.SPD_BONUS.getKey(), 0);
     }}),
 
-    FIREBALL ("Fireball", new Hashtable<String, Object>(){{
+    FIREBALL ("火♂球术", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 10);
         put(ConfigValues.CD_BASE.key, 20);
         put(ConfigValues.CD_BONUS.key, 1.6);
     }}),
 
-    FRIED ("Fried", new Hashtable<String, Object>(){{
+    FRIED ("炙热鱼钩", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 1);
     }}),
 
-    GRAPPLE ("Grapple", new Hashtable<String, Object>(){{
+    GRAPPLE ("飞索", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 5);
         put(ConfigValues.RANGE_BASE.key, 10);
         put(ConfigValues.RANGE_BONUS.key, 2);
@@ -45,7 +45,7 @@ public enum EnchantDefaults {
         put(ConfigValues.SPD_BONUS.key, 0);
     }}),
 
-    HEAL ("Heal", new Hashtable<String, Object>(){{
+    HEAL ("治疗", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 5);
         put(ConfigValues.CD_BASE.key, 15);
         put(ConfigValues.CD_BONUS.key, 0);
@@ -53,7 +53,7 @@ public enum EnchantDefaults {
         put(ConfigValues.HP_BONUS.key, 2);
     }}),
 
-    PULL ("Pull", new Hashtable<String, Object>(){{
+    PULL ("拖拽", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.getKey(), 5);
         put(ConfigValues.CD_BASE.getKey(), 10);
         put(ConfigValues.CD_BONUS.getKey(), 1);
@@ -61,13 +61,13 @@ public enum EnchantDefaults {
         put(ConfigValues.SPD_BONUS.getKey(), 0);
     }}),
 
-    REJUVENATING ("Rejuvenating", new Hashtable<String, Object>(){{
+    REJUVENATING ("额外营养", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.key, 5);
         put(ConfigValues.HP_BASE.key, 1);
         put(ConfigValues.HP_BONUS.key, 1);
     }}),
 
-    REPULSE ("Repulse", new Hashtable<String, Object>(){{
+    REPULSE ("击退", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.getKey(), 5);
         put(ConfigValues.CD_BASE.getKey(), 10);
         put(ConfigValues.CD_BONUS.getKey(), 1);
@@ -77,7 +77,7 @@ public enum EnchantDefaults {
         put(ConfigValues.SPD_BONUS.getKey(), 0);
     }}),
 
-    TOSS ("Toss", new Hashtable<String, Object>(){{
+    TOSS ("投掷术", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.getKey(), 5);
         put(ConfigValues.CD_BASE.getKey(), 15);
         put(ConfigValues.CD_BONUS.getKey(), 0);
@@ -87,7 +87,7 @@ public enum EnchantDefaults {
         put(ConfigValues.DUR_BONUS.getKey(), 0);
     }}),
 
-    VORTEX ("Vortex", new Hashtable<String, Object>(){{
+    VORTEX ("黑洞", new Hashtable<String, Object>(){{
         put(ConfigValues.MAX.getKey(), 5);
         put(ConfigValues.CD_BASE.getKey(), 10);
         put(ConfigValues.CD_BONUS.getKey(), 1);

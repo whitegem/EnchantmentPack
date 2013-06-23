@@ -22,7 +22,7 @@ public class Dash extends ConfigurableEnchantment {
      */
     public Dash(Plugin plugin) {
         super(plugin, EnchantDefaults.DASH, ItemSets.SWORDS.getItems(), 2, ConflictGroup.FORCE);
-        description = "Dash forward dealing damage to all enemies";
+        description = "向前冲锋, 对所有敌人造成伤害!";
     }
 
     /**

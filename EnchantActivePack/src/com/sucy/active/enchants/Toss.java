@@ -29,7 +29,7 @@ public class Toss extends ConfigurableEnchantment {
      */
     public Toss(Plugin plugin) {
         super(plugin, EnchantDefaults.TOSS, new Material[] { Material.DIAMOND_SWORD }, ConflictGroup.FORCE);
-        description = "Picks up and throws enemies";
+        description = "举起并扔出敌人!";
     }
 
     /**

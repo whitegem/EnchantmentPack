@@ -9,6 +9,6 @@ public class Fried extends ConfigurableEnchantment {
 
     public Fried(Plugin plugin) {
         super(plugin, EnchantDefaults.FRIED, new Material[] { Material.FISHING_ROD }, 10);
-        description = "Catches cooked fish instead of raw ones";
+        description = "直接钓起熟鱼";
     }
 }

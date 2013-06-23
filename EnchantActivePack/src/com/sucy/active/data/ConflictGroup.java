@@ -2,8 +2,8 @@ package com.sucy.active.data;
 
 public enum ConflictGroup {
 
-    DEFAULT ("Default"),
-    FORCE ("Force"),
+    DEFAULT ("默认"),
+    FORCE ("强制"),
     ;
 
     private final String group;

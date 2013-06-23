@@ -23,7 +23,7 @@ public class Vortex extends ConfigurableEnchantment {
      */
     public Vortex(Plugin plugin) {
         super(plugin, EnchantDefaults.VORTEX, ItemSets.PICKAXES.getItems(), 1, ConflictGroup.FORCE);
-        description = "Pulls in all nearby enemies";
+        description = "吸住附近的敌人";
     }
 
     /**
