@@ -24,7 +24,7 @@ public class ShadowShift extends ConfigurableEnchantment {
      */
     public ShadowShift(Plugin plugin) {
         super(plugin, EnchantDefaults.SHADOW_SHIFT, ItemSets.LEGGINGS.getItems(), 1);
-        description = "Chance to blind enemies and teleport when hit";
+        description = "攻击时有一定几率致盲敌人并传送走";
     }
 
     /**
