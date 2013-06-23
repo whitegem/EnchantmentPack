@@ -21,7 +21,7 @@ public class Gravity extends ConfigurableEnchantment {
      */
     public Gravity(Plugin plugin) {
         super(plugin, EnchantDefaults.GRAVITY, ItemSets.HOES.getItems(), 1, ConflictGroup.FORCE);
-        description = "Damages and pulls in enemies on attack";
+        description = "将敌人拉向自己并造成伤害";
     }
 
     /**
