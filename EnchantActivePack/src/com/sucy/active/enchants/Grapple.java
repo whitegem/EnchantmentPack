@@ -12,7 +12,7 @@ public class Grapple extends ConfigurableEnchantment {
 
     public Grapple(Plugin plugin) {
         super(plugin, EnchantDefaults.GRAPPLE, new Material[] { Material.FISHING_ROD });
-        description = "Pulls you towards your hook when reeling in";
+        description = "收起钩子时, 你将被拽向那个方向";
     }
 
     public void apply(Player player, Fish hook, int level) {

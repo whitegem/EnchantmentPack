@@ -10,7 +10,7 @@ public class Rejuvenating extends ConfigurableEnchantment {
 
     public Rejuvenating(Plugin plugin) {
         super(plugin, EnchantDefaults.REJUVENATING, ItemSets.FOOD.getItems(), 2);
-        description = "Heals you upon eating";
+        description = "吃东西时回复生命值";
     }
 
     public void apply(Player player, int level) {

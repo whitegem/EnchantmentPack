@@ -160,6 +160,8 @@ public class ConfigurableEnchantment extends CustomEnchantment {
             timers.put(playerName, 0l);
         }
 
+/*
+
         if (System.currentTimeMillis() - timers.get(playerName) < cooldown(level)) {
             plugin.getServer().getPlayer(playerName).sendMessage(ChatColor.GOLD + name()
                     + ChatColor.DARK_RED + " cooldown - "
@@ -167,6 +169,15 @@ public class ConfigurableEnchantment extends CustomEnchantment {
                     + ChatColor.DARK_RED + " seconds left");
             return true;
         }
+
+*/
+	    if (System.currentTimeMillis() - timers.get(playerName) < cooldown(level)) {
+		    plugin.getServer().getPlayer(playerName).sendMessage(ChatColor.GOLD + name()
+				    + ChatColor.DARK_RED + " 冷却时间: 剩余"
+				    + ChatColor.GOLD + ((cooldown(level) - System.currentTimeMillis() + timers.get(playerName)) / 1000 + 1)
+				    + ChatColor.DARK_RED + "秒");
+		    return true;
+	    }
 
         return false;
     }

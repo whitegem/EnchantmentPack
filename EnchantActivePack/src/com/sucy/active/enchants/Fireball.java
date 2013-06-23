@@ -13,7 +13,7 @@ public class Fireball extends ConfigurableEnchantment {
 
     public Fireball(Plugin plugin) {
         super(plugin, EnchantDefaults.FIREBALL, new Material[] {Material.BLAZE_ROD }, 10);
-        description = "Launches a fireball";
+        description = "发射一个火球";
     }
 
     @Override

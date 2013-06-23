@@ -23,7 +23,7 @@ public class Repulse extends ConfigurableEnchantment {
      */
     public Repulse(Plugin plugin) {
         super(plugin, EnchantDefaults.REPULSE, ItemSets.SWORDS.getItems(), 1, ConflictGroup.FORCE);
-        description = "Pushes all enemies away";
+        description = "推开所有敌人!";
     }
 
     /**

@@ -15,7 +15,7 @@ public class Heal extends ConfigurableEnchantment {
 
     public Heal(Plugin plugin) {
         super(plugin, EnchantDefaults.HEAL, new Material[] { Material.BLAZE_ROD }, 2);
-        description = "Heals yourself or a target ally";
+        description = "治疗自己或者一个队友";
     }
 
     @Override

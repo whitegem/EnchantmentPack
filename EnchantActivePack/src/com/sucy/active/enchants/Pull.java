@@ -21,7 +21,7 @@ public class Pull extends ConfigurableEnchantment {
      */
     public Pull(Plugin plugin) {
         super(plugin, EnchantDefaults.PULL, ItemSets.PICKAXES.getItems(), 3, ConflictGroup.FORCE);
-        description = "Pulls the target enemy closer";
+        description = "将敌人拖到你的面前!";
     }
 
     /**

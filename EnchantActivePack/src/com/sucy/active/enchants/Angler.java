@@ -9,6 +9,6 @@ public class Angler extends ConfigurableEnchantment {
 
     public Angler(Plugin plugin) {
         super(plugin, EnchantDefaults.ANGLER, new Material[] { Material.FISHING_ROD }, 5);
-        description = "Catches more than 1 fish";
+        description = "钓起更多的鱼";
     }
 }
