@@ -17,7 +17,7 @@ public class Jump extends PotionPassive {
      */
     public Jump(Plugin plugin) {
         super(plugin, EnchantDefaults.JUMP, ItemSets.BOOTS.getItems());
-        description = "Passively grants jump bonus";
+        description = "获得被动的额外跳跃高度";
     }
 
     /**

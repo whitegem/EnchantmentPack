@@ -17,7 +17,7 @@ public class Fervor extends PotionSteal {
      */
     public Fervor(Plugin plugin) {
         super(plugin, EnchantDefaults.FERVOR, ItemSets.SWORDS.getItems());
-        description = "Grants bonus speed on hit";
+        description = "击中敌人时获得额外速度";
     }
 
     /**

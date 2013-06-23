@@ -17,7 +17,7 @@ public class Blind extends PotionInflict {
      */
     public Blind(Plugin plugin) {
         super(plugin, EnchantDefaults.BLIND, ItemSets.PICKAXES.getItems());
-        description = "Blinds enemies on hit";
+        description = "击中敌人时使其致盲";
     }
 
     /**

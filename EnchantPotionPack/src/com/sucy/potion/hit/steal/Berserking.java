@@ -10,7 +10,7 @@ public class Berserking extends PotionSteal {
 
     public Berserking(Plugin plugin) {
         super(plugin, EnchantDefaults.BERSERKING, ItemSets.AXES.getItems());
-        description = "Grants bonus damage on attack";
+        description = "攻击时附加额外伤害";
     }
 
     public PotionEffectType type() {

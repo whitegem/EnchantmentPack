@@ -17,7 +17,7 @@ public class NightVision extends PotionPassive {
      */
     public NightVision(Plugin plugin) {
         super(plugin, EnchantDefaults.NIGHT_VISION, ItemSets.HELMETS.getItems());
-        description = "Passively grants night vision";
+        description = "获得额外夜视技能";
     }
 
     /**
