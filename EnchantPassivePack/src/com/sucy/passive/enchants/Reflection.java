@@ -20,7 +20,7 @@ public class Reflection extends ConfigurableEnchantment {
      */
     public Reflection(Plugin plugin) {
         super(plugin, EnchantDefaults.REFLECTION, ItemSets.CHESTPLATES.getItems(), ConflictGroup.POD);
-        description = "Reflects damage back at attackers";
+        description = "将所受伤害反弹给对方";
     }
 
     /**
