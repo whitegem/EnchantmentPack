@@ -11,7 +11,7 @@ public class Rapid extends ConfigurableEnchantment {
 
     public Rapid(Plugin plugin) {
         super(plugin, EnchantDefaults.RAPID, new Material[] { Material.BOW }, 10);
-        description = "Fire faster projectiles";
+        description = "以更快的速度射箭";
     }
 
     @Override
