@@ -17,7 +17,7 @@ public class FireTrap extends RedstoneTrap {
      */
     public FireTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.FIRE_TRAP, 4);
-        description = "Places a trap that creates fire when triggered";
+        description = "放置一个触发即燃烧的陷阱";
         layout = new boolean[][] {
                 { false, false,  true,  true,  true },
                 { false, false, false,  true },

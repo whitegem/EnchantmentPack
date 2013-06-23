@@ -18,7 +18,7 @@ public class WebTrap extends RedstoneTrap {
      */
     public WebTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.WEB_TRAP, 3);
-        description = "Places a trap that spawns temporary webs";
+        description = "放置一个释放临时的蜘蛛网的陷阱";
         layout = new boolean[][] {
                 { false, false,  true,  true },
                 { false, false,  true, false,  true },

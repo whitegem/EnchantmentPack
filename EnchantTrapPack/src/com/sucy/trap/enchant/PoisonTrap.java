@@ -18,7 +18,7 @@ public class PoisonTrap extends PotionTrap {
      */
     public PoisonTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.POISON_TRAP, 4, PotionEffectType.POISON);
-        description = "Places a trap that poisons enemies";
+        description = "放置一个使敌人中毒的陷阱";
         layout = new boolean[][] {
                 { false, false, false,  true },
                 { false, false,  true,  true,  true },

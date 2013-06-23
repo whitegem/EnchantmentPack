@@ -13,7 +13,7 @@ public class BarrierTrap extends RedstoneTrap {
      */
     public BarrierTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.BARRIER_TRAP, 3);
-        description = "Places a trap that pushes enemies away";
+        description = "放置一个将敌人推走的陷阱";
         layout = new boolean[][] {
                 {  true,  true, false,  true,  true },
                 {  true, false, false, false,  true },

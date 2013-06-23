@@ -15,7 +15,7 @@ public class LaunchTrap extends RedstoneTrap {
      */
     public LaunchTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.LAUNCH_TRAP, 3);
-        description = "Places a trap that launches an enemy up";
+        description = "放置一个弹射敌人的陷阱";
         layout = new boolean[][] {
                 {  true,  true,  true,  true,  true },
                 {  true, false, false, false,  true },
