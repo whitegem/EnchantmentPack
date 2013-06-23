@@ -19,7 +19,7 @@ public class Lightning extends ConfigurableEnchantment {
      */
     public Lightning(Plugin plugin) {
         super(plugin, EnchantDefaults.LIGHTNING, ItemSets.AXES.getItems());
-        description = "Chance to strike lightning on hit";
+        description = "有几率在攻击的时候附带闪电的威能";
     }
 
     /**
