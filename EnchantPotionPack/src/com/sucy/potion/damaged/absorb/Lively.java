@@ -17,7 +17,7 @@ public class Lively extends PotionAbsorb {
      */
     public Lively(Plugin plugin) {
         super(plugin, EnchantDefaults.LIVELY, ItemSets.BOOTS.getItems());
-        description = "Grants bonus speed when hit";
+        description = "被造成伤害之后增加额外速度";
     }
 
     /**

@@ -17,7 +17,7 @@ public class Cursed extends PotionReflect {
      */
     public Cursed(Plugin plugin) {
         super(plugin, EnchantDefaults.CURSED, ItemSets.CHESTPLATES.getItems());
-        description = "Applies wither to foes when hit";
+        description = "对敌人造成伤害时可对其增加凋零效果";
     }
 
     /**

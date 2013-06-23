@@ -17,7 +17,7 @@ public class Demoralizing extends PotionReflect {
      */
     public Demoralizing(Plugin plugin) {
         super(plugin, EnchantDefaults.DEMORALIZING, ItemSets.CHESTPLATES.getItems());
-        description = "Lowers damage of enemies when hit";
+        description = "减少敌人对自己造成的伤害";
     }
 
     /**
