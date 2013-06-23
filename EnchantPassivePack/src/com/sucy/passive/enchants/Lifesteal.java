@@ -20,7 +20,7 @@ public class Lifesteal extends ConfigurableEnchantment {
      */
     public Lifesteal(Plugin plugin) {
         super(plugin, EnchantDefaults.LIFESTEAL, ItemSets.HOES.getItems());
-        description = "Gain health on attack";
+        description = "攻击时从对方身上吸取生命值";
     }
 
     /**
