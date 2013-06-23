@@ -17,7 +17,7 @@ public class Poison extends PotionInflict {
      */
     public Poison(Plugin plugin) {
         super(plugin, EnchantDefaults.POISON,  ItemSets.HOES.getItems());
-        description = "Poisons enemies on hit";
+        description = "击中敌人时使其中毒";
     }
 
     /**

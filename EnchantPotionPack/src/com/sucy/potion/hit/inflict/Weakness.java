@@ -17,7 +17,7 @@ public class Weakness extends PotionInflict {
      */
     public Weakness(Plugin plugin) {
         super(plugin, EnchantDefaults.WEAKNESS, ItemSets.AXES.getItems());
-        description = "Lowers enemies' damage on hit";
+        description = "击中敌人时降低其伤害值";
     }
 
     /**

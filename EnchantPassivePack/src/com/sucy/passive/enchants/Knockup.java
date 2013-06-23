@@ -20,7 +20,7 @@ public class Knockup extends ConfigurableEnchantment {
      */
     public Knockup(Plugin plugin) {
         super(plugin, EnchantDefaults.KNOCKUP, ItemSets.SWORDS.getItems(), 10, ConflictGroup.FORCE);
-        description = "Has a chance to knock the target into the air";
+        description = "有一定几率将敌人击飞到空中";
     }
 
     /**

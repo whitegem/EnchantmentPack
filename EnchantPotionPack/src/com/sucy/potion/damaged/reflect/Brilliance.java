@@ -17,7 +17,7 @@ public class Brilliance extends PotionReflect {
      */
     public Brilliance(Plugin plugin) {
         super(plugin, EnchantDefaults.BRILLIANCE, ItemSets.HELMETS.getItems());
-        description = "Blinds foes when hit";
+        description = "击中敌人时可使对方致盲";
     }
 
     /**

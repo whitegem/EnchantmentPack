@@ -17,7 +17,7 @@ public class Frost extends PotionReflect {
      */
     public Frost(Plugin plugin) {
         super(plugin, EnchantDefaults.FROST, ItemSets.LEGGINGS.getItems());
-        description = "Slows enemies when hit";
+        description = "击中敌人时可以使其减慢速度";
     }
 
     /**

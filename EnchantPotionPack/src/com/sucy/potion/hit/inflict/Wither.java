@@ -17,7 +17,7 @@ public class Wither extends PotionInflict {
      */
     public Wither(Plugin plugin) {
         super(plugin, EnchantDefaults.WITHER, ItemSets.HOES.getItems());
-        description = "Applies wither on hit";
+        description = "击中敌人时附加凋零效果";
     }
 
     /**

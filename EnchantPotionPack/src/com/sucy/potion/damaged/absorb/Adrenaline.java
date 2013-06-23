@@ -17,7 +17,7 @@ public class Adrenaline extends PotionAbsorb {
      */
     public Adrenaline(Plugin plugin) {
         super(plugin, EnchantDefaults.ADRENALINE, ItemSets.LEGGINGS.getItems());
-        description = "Grants extra damage when hit";
+        description = "被造成伤害之后增加额外伤害";
     }
 
     /**

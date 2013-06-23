@@ -9,7 +9,7 @@ public class Distortion extends PotionSteal {
 
     public Distortion(Plugin plugin) {
         super(plugin, EnchantDefaults.DISTORTION, ItemSets.HOES.getItems());
-        description = "Grants invisibility on hit";
+        description = "击中敌人时获得隐身能力";
     }
 
     public PotionEffectType type() {

@@ -19,7 +19,7 @@ public class Forceful extends ConfigurableEnchantment {
      */
     public Forceful(Plugin plugin) {
         super(plugin, EnchantDefaults.FORCEFUL, ItemSets.AXES.getItems(), 1, ConflictGroup.FORCE);
-        description = "Damages and knocks away enemies on attack";
+        description = "击退敌人并造成伤害";
     }
 
     /**

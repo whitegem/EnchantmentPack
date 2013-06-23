@@ -17,7 +17,7 @@ public class Slow extends PotionInflict {
      */
     public Slow(Plugin plugin) {
         super(plugin, EnchantDefaults.SLOWING, ItemSets.PICKAXES.getItems());
-        description = "Slows enemies on hit";
+        description = "击中敌人时使其缓慢";
     }
 
     /**
