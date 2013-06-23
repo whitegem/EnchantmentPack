@@ -16,7 +16,7 @@ public class IceTrap extends RedstoneTrap {
      */
     public IceTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.ICE_TRAP, 3);
-        description = "Creates a trap that traps enemies";
+        description = "放置一个将敌人困住的陷阱";
         layout = new boolean[][] {
                 {  true,  true, false,  true,  true },
                 {  true, false, false, false,  true },

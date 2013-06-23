@@ -14,7 +14,7 @@ public class BombTrap extends RedstoneTrap {
      */
     public BombTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.BOMB_TRAP, 4);
-        description = "Places a trap that explodes when triggered";
+        description = "放置一个触发即爆炸的陷阱";
         layout = new boolean[][] {
                 { false, false,  true, false,  true },
                 { false,  true, false, false, false,  true },

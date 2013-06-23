@@ -14,7 +14,7 @@ public class LightningTrap extends RedstoneTrap {
      */
     public LightningTrap(Plugin plugin) {
         super(plugin, EnchantDefaults.LIGHTNING_TRAP, 3);
-        description = "Places a trap that strikes lightning";
+        description = "放置一个可触发雷击的陷阱";
         layout = new boolean[][] {
                 { false,  true, false,  true },
                 {  true,  true, false,  true,  true },

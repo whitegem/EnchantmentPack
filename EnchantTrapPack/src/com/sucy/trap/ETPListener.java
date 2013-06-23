@@ -40,7 +40,7 @@ public class ETPListener implements Listener {
         for (Trap trap : Trap.getTraps()) {
             if (trap.contains(event.getBlock().getLocation())) {
                 event.setCancelled(true);
-                event.getPlayer().sendMessage("This block is protected by a magical spell...");
+                event.getPlayer().sendMessage("这个方块被一个魔法咒语保护着...");
             }
         }
     }
